@@ -12,6 +12,9 @@ on:
       ref:
         required: true
         type: string
+      release_run_id:
+        required: true
+        type: string
 
 jobs:
   deploy:
